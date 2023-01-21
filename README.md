@@ -8,7 +8,7 @@
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) typescript template.
 
 
-  
+check this out! [**DEMO**](https://dell-project.vercel.app/  "https://dell-project.vercel.app/")  
   
 
 ## Features

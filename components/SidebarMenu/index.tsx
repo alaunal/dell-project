@@ -62,12 +62,19 @@ const SidebarMenu = () => {
           </nav>
         </div>
         <div className="flex justify-center w-full mt-4 mb-8 text-sm text-gray-600">
-          copyright @alaunal <strong className="ml-1">source code</strong>
+          copyright @alaunal{" "}
+          <a href="https://github.com/alaunal/dell-project" target={`_blank`}>
+            <strong className="ml-1 text-slate-700 hover:text-violet-700">
+              source code
+            </strong>
+          </a>
         </div>
 
         <div className="absolute -right-14 top-5 md:inline-block lg:hidden">
           <button
-            className={`h-12 w-12 flex rounded-full ${toggle ? "bg-red-500" : "bg-slate-800"} text-white font-2xl justify-center items-center transition-colors`}
+            className={`h-12 w-12 flex rounded-full ${
+              toggle ? "bg-red-500" : "bg-slate-800"
+            } text-white font-2xl justify-center items-center transition-colors`}
             onClick={() => setToggle(!toggle)}
           >
             {toggle ? <HiOutlineX /> : <HiMenu />}
